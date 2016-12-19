@@ -2,7 +2,7 @@
    "kind": "ImageStream",
    "apiVersion": "v1",
    "metadata": {
-      "name": "s2i-java"
+      "name": "s2i-java-libreoffice"
    },
    "spec": {
       "dockerImageRepository": "mbsi/s2i-java-libreoffice",
