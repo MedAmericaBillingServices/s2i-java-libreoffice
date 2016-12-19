@@ -42,7 +42,7 @@ LABEL io.k8s.description="Platform for building Java (fatjar) applications with 
 # COPY ./<builder_folder>/ /opt/openshift/
 # COPY Additional files,configurations that we want to ship by default, like a default setting.xml
 COPY ./contrib/settings.xml $HOME/.m2/
-COPY ./contrib/etc /opt/app-root/contrib
+COPY ./contrib/etc /opt/app-root/
 LABEL io.openshift.s2i.scripts-url=image:///usr/local/sti
 COPY ./sti/bin/ /usr/local/sti
 
